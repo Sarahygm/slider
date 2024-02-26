@@ -17,7 +17,12 @@ module.exports = {
         17 : '68px',
         18 : '72px',
         22 : '88px',
-      }
+      },
+
+      fontSize: {
+        xxs: ['10px', '12px'],
+      },
+      
     },
   },
   plugins: [],
