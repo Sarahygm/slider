@@ -598,13 +598,14 @@ video {
   margin: 0.375rem;
 }
 
-.m-16 {
-  margin: 4rem;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.my-16 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .flex {
@@ -685,4 +686,119 @@ video {
 .text-purple {
   --tw-text-opacity: 1;
   color: rgb(119 35 201 / var(--tw-text-opacity));
+}
+
+/* Slider */
+
+.slick-loading .slick-list
+{
+  background: #fff url('./ajax-loader.gif') center center no-repeat;
+}
+
+/* Icons */
+
+@font-face
+{
+  font-family: 'slick';
+
+  font-weight: normal;
+
+  font-style: normal;
+
+  src: url('./fonts/slick.eot');
+
+  src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
+}
+
+/* Dots */
+
+.slick-dotted.slick-slider
+{
+  margin-bottom: 30px;
+}
+
+.slick-dots
+{
+  position: absolute;
+  bottom: -50px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.slick-dots li
+{
+  position: relative;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin: 0 8px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.slick-dots li button
+{
+  font-size: 16px;
+  line-height: 0;
+  display: block;
+  margin: auto;
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+
+.slick-dots li button:hover,
+.slick-dots li button:focus
+{
+  outline: none;
+}
+
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before
+{
+  opacity: 1;
+}
+
+.slick-dots li button:before
+{
+  font-family: 'slick';
+  font-size: 16px;
+  line-height: 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  content: '';
+  text-align: center;
+  opacity: 1;
+  border: 2px solid rgba(255, 0, 122, 1);
+  border-radius: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots li.slick-active button:before
+{
+  opacity: 1;
+  font-size: 16px;
+  border: 2px solid rgba(255, 0, 122, 1);
+  border-radius: 25.6px;
+  content:'•';
+  border-left-width: 48px;
+  color: transparent;
+  position: absolute;
+  text-align: center;
+  transition: .3s opacity;
+  transform: translateZ(0);
+  margin: 1;
 }
