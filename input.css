@@ -118,8 +118,5 @@
     color: transparent;
     position: absolute;
     text-align: center;
-    transition: .3s opacity;
-    transform: translateZ(0);
-    margin: 1;
-    
+    transition: .3s opacity;    
 }
