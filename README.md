@@ -17,7 +17,7 @@ Este é um projeto de slider responsivo desenvolvido usando **[Tailwind CSS](htt
 ## Pré-requisitos
 Antes de começar, certifique-se de ter o seguinte instalado:
 - **[Node.js](https://nodejs.org/en/download):** Certifique-se de instalar o Node.js, que inclui o npm (Node Package Manager).
-- **[Tailwind CSS](https://tailwindcss.com/docs/installation):** Este projeto depende do Tailwind CSS para estilização. Siga as etapas de instalação abaixo para configurá-lo.
+- **[Tailwind CSS](https://tailwindcss.com/docs/installation):** Este projeto depende do Tailwind CSS para estilização.
 
 <br>
 
