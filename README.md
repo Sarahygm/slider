@@ -36,6 +36,7 @@ Execute a ferramenta CLI para verificar se há classes em seus arquivos de model
 ```
 
 <br>
+
 ## Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests para melhorar este projeto.
 
