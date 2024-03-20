@@ -32,7 +32,7 @@ Instale o `tailwindcss` via npm e crie seu arquivo `tailwind.config.js`.
 #### 2. Inicie o processo de construção da CLI do Tailwind:
 Execute a ferramenta CLI para verificar se há classes em seus arquivos de modelo e construir seu CSS (output).
 ```bash
-> npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+> npx tailwindcss -i ./input.css -o ./src/output.css --watch
 ```
 
 <br>
